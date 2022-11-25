@@ -1,6 +1,6 @@
 package com.example.demo.herencia;
 
-public class Habitacion {
+public class HabitacionH {
 
 	private int numHabitacion;
 	private boolean servicioHabitacion;

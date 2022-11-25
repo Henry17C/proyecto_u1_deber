@@ -1,6 +1,6 @@
 package com.example.demo.herencia;
 
-public class HabitacionFamiliar extends Habitacion{
+public class HabitacionFamiliarH extends HabitacionH{
 	private boolean guarderia;
 	public Integer calcularDecuento() {
 		System.out.println("Habitacion Familiar con 20% de descuento");

@@ -1,6 +1,6 @@
 package com.example.demo.herencia;
 
-public class HabitacionMatrimonial extends Habitacion{
+public class HabitacionMatrimonialH extends HabitacionH{
 	private boolean minibar;
 	private boolean spa;
 	private boolean decoracionEspecial;

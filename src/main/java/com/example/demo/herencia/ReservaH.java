@@ -2,13 +2,13 @@ package com.example.demo.herencia;
 
 import java.time.LocalDateTime;
 
-public class Reserva {
+public class ReservaH {
 	private String codigo;
 	private LocalDateTime fechaReserva;
-	private Cliente cliente;
-	private Habitacion habitacion= new Habitacion();
+	private ClienteH cliente;
+	private HabitacionH habitacion= new HabitacionH();
 	
-	public void agendar (String codigo, LocalDateTime fechaReserva, Habitacion habitacion, Cliente cliente) {
+	public void agendar (String codigo, LocalDateTime fechaReserva, HabitacionH habitacion, ClienteH cliente) {
 		
 		this.codigo = codigo;
 		this.fechaReserva = fechaReserva;
@@ -22,7 +22,7 @@ public class Reserva {
 		
 		
 	}
-	private void guardarReserva(Reserva reserva){
+	private void guardarReserva(ReservaH reserva){
 		//inset en la base de da
 		System.out.println(reserva);
 	}
@@ -47,23 +47,23 @@ public class Reserva {
 	public void setFechaReserva(LocalDateTime fechaReserva) {
 		this.fechaReserva = fechaReserva;
 	}
-	public Habitacion getHabitacion() {
+	public HabitacionH getHabitacion() {
 		return habitacion;
 	}
-	public void setHabitacion(Habitacion habitacion) {
+	public void setHabitacion(HabitacionH habitacion) {
 		this.habitacion = habitacion;
 	}
-	public Cliente getCliente() {
+	public ClienteH getCliente() {
 		return cliente;
 	}
 
 
-	public void setCliente(Cliente cliente) {
+	public void setCliente(ClienteH cliente) {
 		this.cliente = cliente;
 	}
 
 
-	private void guardaCinta(Reserva reserva) {
+	private void guardaCinta(ReservaH reserva) {
 		
 		System.out.println(reserva);
 	}
