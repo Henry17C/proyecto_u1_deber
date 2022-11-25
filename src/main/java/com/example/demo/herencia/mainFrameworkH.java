@@ -22,7 +22,6 @@ public class mainFrameworkH {
 		
 		//String codigo, LocalDateTime fechaReserva, Habitacion habitacion, Cliente cliente
 		
-
 	}
 
 }

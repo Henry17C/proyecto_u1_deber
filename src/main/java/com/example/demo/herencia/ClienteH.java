@@ -3,8 +3,7 @@ package com.example.demo.herencia;
 public class ClienteH {
 	
 	private String nombre;
-	 private String cedula;
-	 
+	private String cedula;
 	 
 	public String getNombre() {
 		return nombre;

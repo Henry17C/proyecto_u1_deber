@@ -26,6 +26,4 @@ public class HabitacionFamiliarH extends HabitacionH{
 		return "HabitacionFamiliar [guarderia=" + guarderia +" numero habitacion= "+this.getNumHabitacion() 
 		+" canales por cable= "+ this.isCanalesPorCable()+" servicio a la habitacion="+this.isServicioHabitacion()+"]";
 	}
-	
-
 }

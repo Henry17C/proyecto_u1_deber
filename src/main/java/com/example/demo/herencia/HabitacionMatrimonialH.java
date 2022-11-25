@@ -9,7 +9,6 @@ public class HabitacionMatrimonialH extends HabitacionH{
 		return 5;
 	}
 	
-	
 	@Override
 	public String toString() {
 		return "HabitacionMatrimonial [minibar=" + minibar + ", spa=" + spa + ", decoracionEspecial="

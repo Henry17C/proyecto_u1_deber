@@ -18,8 +18,6 @@ public class ReservaH {
 		this.cliente=cliente;
 		this.habitacion=habitacion;
 		this.guardaCinta(this);
-
-		
 		
 	}
 	private void guardarReserva(ReservaH reserva){
